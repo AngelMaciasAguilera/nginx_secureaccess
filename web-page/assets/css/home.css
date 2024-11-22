@@ -1,0 +1,494 @@
+
+/*------------------------------------------------HERO SECTION------------------------------------------------*/
+.herosection{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imgs/design-space-paper-textured-background.jpg);
+}
+
+
+.hero-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 3rem 0 3rem;
+}
+
+.hero-left{
+    flex: 1;
+    height: 400px;
+    background-image: url(../imgs/dish-7006585_1280-removebg-preview.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.hero-text{
+    flex: 1;
+    height: 55%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero-text h1{
+    font-size: 7rem;
+}
+
+.hero-text h1 span{
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
+
+.hero-text p{
+    font-size: 1.8rem;
+}
+
+.hero-text a{
+    font-size: 1.3rem;
+}
+
+.hero-right{
+    flex: 1;
+    background-image: url(../imgs/image0_0-removebg-preview.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+
+/*------------------------------------------------WHEN SECTION------------------------------------------------*/
+.when-section{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0 3rem 6rem 3rem;
+    background-image: url(../imgs/design-space-paper-textured-background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.when-left-content, .when-right-content{
+    flex:1;
+}
+
+.when-left-content{
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: start;
+
+    box-sizing: border-box;
+}
+
+.when-right-content{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+.when-left-left-content{
+    background-image: url(../imgs/sushi-5973007_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    aspect-ratio: 3/4;
+    width: 80%;
+}
+
+.when-left-right-content{
+    width: 20%;
+    aspect-ratio: 3/4;
+
+}
+
+.when-left-right-content h1{
+    transform: rotate(90deg);
+    position: absolute;
+    top: 115px;
+    right: -55px;
+    font-size: clamp(3rem, 0.857rem + 5.714vw, 6rem);
+}
+
+.when-left-right-content h1 span{
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
+
+.when-right-top-content, .when-right-bottom-content{
+    flex: 1;
+}
+
+.when-right-top-content{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.when-right-top-content p{
+    font-size: clamp(1.2rem, 1.042rem + 0.632vw, 1.8rem);
+}
+.when-right-content{
+    gap: 2rem;
+}
+
+.chief-sign{
+    margin-left: 7px;
+    font-family: "Sign-Kaito";
+}
+
+.when-right-bottom-content{
+    background-image: url(../imgs/inner-restaurant.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    aspect-ratio: 16/9;
+}
+
+/*------------------------------------------------HOW SECTION------------------------------------------------*/
+.how-section{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0 3rem 6rem 3rem;
+    background-image: url(../imgs/design-space-paper-textured-background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.left-how, .right-how{
+    flex: 1;
+}
+
+.left-how{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.left-how h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+.left-how p{
+    font-size: 1.4rem;
+    line-height: 2.5;
+    margin: 0 7rem 0 7rem;
+}
+
+
+.right-how{
+    background-image: url(../imgs/fish-7759503_1280.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+}
+
+
+
+/*------------------------------------------------AWARDS SECTION------------------------------------------------*/
+.awards-section{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0 3rem 6rem 3rem;
+    background-image: url(../imgs/design-space-paper-textured-background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    gap: 3rem;
+}
+
+.awards-section h1{
+    font-size: clamp(2.5rem, 2.368rem + 0.526vw, 3rem);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.awards-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+    flex: 1 0 300px;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.award{
+    max-width: 400px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    flex: 1 0 280px;
+    padding-bottom: 2rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.726);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    transition: transform ease 0.4s 0s;
+}
+
+
+
+.award:hover{
+    transform: scale(1.05);
+}
+
+.award svg{
+    width: 50px;
+    height: 50px;
+}
+
+.fa-hand-back-fist{
+    font-size: 50px; 
+    
+}
+
+.main-content-award{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main-content-award h6{
+    width: 90%;
+    font-size: 1.3rem;
+}
+
+.main-content-award i{
+    width: 10%;
+    font-size: 1.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.main-content-award p{
+    font-size: 1rem;
+}
+
+/*------------------------------------------------TENJU EXPERIENCES------------------------------------------------*/
+.experiences-section{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0 3rem 4rem 3rem;
+    background-image: url(../imgs/design-space-paper-textured-background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    gap: 3rem;
+}
+
+.experiences-section h1{
+    font-size: clamp(2.5rem, 2.368rem + 0.526vw, 3rem);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.tenju-experiences{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+    flex: 1 0 300px;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.general-experience{
+    max-width: 400px;
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+    flex: 1 0 280px;
+    padding-bottom: 2rem;
+}
+
+.general-experience h3{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.general-experience p{
+    font-size: 1.4rem;
+}
+
+.general-experience a{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    
+    text-decoration: underline; /* Define el subrayado */
+    text-decoration-color: black; /* Color del subrayado */
+    text-decoration-thickness: 2px; /* Grosor del subrayado */
+    text-underline-offset: 7px;
+
+    color: black;
+}
+
+
+.experience1-img{
+    background-image: url(../imgs/high-angle-hand-pouring-drink-cup.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 8/12.5;
+}
+
+.experience2-img{
+    background-image: url(../imgs/high-angle-dumplings-chopsticks.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 8/12.5;
+}
+
+.experience3-img{
+    background-image: url(../imgs/front-view-dumpling-spoon-with-copy-space.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 8/12.5;
+}
+
+
+
+
+input[type="submit"]{
+    width: 40%;
+}
+
+
+@media screen and (max-width: 1350px) {
+    .when-section{
+        padding-top: 3rem;
+        flex-flow: column;
+        gap: 2rem;
+    }
+
+    .awards-content{
+        flex-flow: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tenju-experiences{
+        flex-flow: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .how-section{
+        flex-flow: column;
+        gap: 2rem;
+    }
+
+    .left-how p{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .herosection{
+        padding-bottom: 10rem;
+    }
+
+    .hero-content{
+        flex-flow: column;
+        width: 100%;
+        height: 100%;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-text{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .hero-left, .hero-right{
+        width: 100%;
+        height: 300px;
+    }
+
+
+    
+
+}
+
+
+@media screen and (max-width: 960px) {
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+    header{
+        margin: 0;
+    }
+
+    .herosection{
+        height: 80vh;
+    }
+
+    .hero-left, .hero-right{
+        display: none;
+    }
+
+    .hero-text{
+        padding-bottom: 4rem;
+    }
+
+
+
+
+}

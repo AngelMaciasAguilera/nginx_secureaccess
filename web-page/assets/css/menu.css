@@ -1,0 +1,296 @@
+header{
+    margin-bottom: 0rem!important;
+}
+
+
+
+/*------------------------------------------MENU-PRESENTATION------------------------------------------*/
+.menu-presentation{
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+    background-image: url(../imgs/design-space-paper-textured-background.jpg);
+}
+
+
+.menu-presentation-content{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-menu-presentation{
+    position: relative;
+    width: 80%;
+    aspect-ratio: 16/7.2;
+    background-image: url(../imgs/menu-intro.png);
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-menu-presentation h1{
+    font-size: clamp(2.5rem, 1.579rem + 3.684vw, 6rem);
+    position: absolute;
+    color: white;
+    text-transform: capitalize;
+    top: 5rem;
+    left: 0;
+    right: 0;
+}
+
+/*------------------------------------------BEST DISHES------------------------------------------*/
+
+.best-dishes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.best-dish{
+    max-width: 400px;
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+    flex: 1 0 280px;
+    padding-bottom: 2rem;
+}
+
+.best-dish h3{
+    color: black;
+    font-size: clamp(1.5rem, 1.368rem + 0.526vw, 2rem);
+    text-transform: capitalize;
+}
+
+.best-dish p{
+    color: black;
+    font-size: clamp(1rem, 0.895rem + 0.421vw, 1.4rem);
+}
+
+
+.best-dishes-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    flex: 1 0 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(../imgs/design-space-paper-textured-background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 4rem;
+}
+
+
+.best-dishes-section h1{
+    font-size: clamp(1.7rem, 1.358rem + 1.368vw, 3rem);
+    color: black;
+    text-transform: capitalize;
+    padding: 1rem 0;
+}
+
+.img-dish1{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-image: url(../imgs/compressed/gourmet3.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.img-dish2{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-image: url(../imgs/compressed/gourmet10.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+
+.img-dish3{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-image: url(../imgs/compressed/gourmet5.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+
+/*------------------------------------------MENU1------------------------------------------*/
+
+.menu1-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../imgs/design-space-paper-textured-background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 2rem 0;
+}
+
+.menu1, .menu2{
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+
+
+
+.right-content-menu{
+    padding-left: 1rem;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+}
+
+.menu-guide{
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+}
+
+.left-content-menu h1{
+    font-size: 2rem;
+    color: black;
+    text-transform: capitalize;
+}
+
+.left-content-menu p{
+    font-size: 1rem;
+    color: black;
+}
+
+.left-content-menu{
+    display: flex;
+    flex-flow: column;
+    gap: .7rem;
+}
+
+.menu1 .right-content-menu, .menu2 .right-content-menu{
+    color: black;
+    border-left: 3px solid black;
+}
+
+.right-content-menu h5{
+    font-size: 1.3rem;
+    color: black;
+    text-transform: capitalize;
+}
+
+.right-content-menu p{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: black;
+}
+
+/*------------------------------------------GALLERY MENU------------------------------------------*/
+.menu-gallery-section{
+    width: 100%;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-image: url(../imgs/design-space-paper-textured-background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.menu-gallery-section h1{
+    font-size: clamp(1.7rem, 1.358rem + 1.368vw, 3rem);
+    color: black;
+    text-transform: capitalize;
+    padding: 2rem 0;
+}
+.menu-gallery{
+    width: 80%;
+    margin: 0 auto;
+    columns: 3 300px;
+    margin-bottom: 4rem;
+}
+
+img{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+
+    border-image: fill 0 linear-gradient(black, rgba(0,0,0,.4));
+}
+
+
+
+@media screen and (max-width: 1350px) {
+}
+
+@media screen and (max-width: 1200px) {
+
+    .best-dishes{
+        flex-flow: column;
+        gap: 2rem;
+    }
+
+}
+
+
+@media screen and (max-width: 960px) {
+
+    .menu1-section{
+        flex-flow: column;
+        gap: 2rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+
+    .img-menu-presentation{
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-menu-presentation h1{
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-top: 1rem;
+    }
+
+    .menu-guide p{
+        line-height: 2;
+    }
+}
+

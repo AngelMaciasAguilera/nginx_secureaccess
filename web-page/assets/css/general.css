@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Artifika&display=swap');
+
+
+@font-face {
+    font-family: 'Sign-Kaito';
+    src: url(../fonts/Skating.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3,h4,h5,h6{
+    letter-spacing: 5px;
+    font-family: Artifika;
+}
+
+/*-------------------------------------------------------------HEADER-------------------------------------------------------------*/
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 clamp(1rem, 0.296rem + 2.254vw, 3rem) 0 clamp(1rem, 0.296rem + 2.254vw, 3rem);
+    margin-bottom: clamp(2rem, 1.296rem + 2.254vw, 4rem);
+}
+
+.minilogo{
+    width: 150px;
+    height: 150px;
+    background-image: url(../imgs/TENJU-removebg-preview.png);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    width: 60%;
+    height: auto;
+    text-align: right;
+}
+
+
+.navbar ul{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.navbar ul a:hover{
+    color: burlywood;
+}
+
+.bookbutton{
+    padding: 1.3rem 3.3rem 1.3rem 3.3rem;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.bookbutton:hover{
+    background-color: burlywood;
+}
+
+/*------------------------------------------------------------FOOTER------------------------------------------------------------*/
+footer{
+    width: 100%;
+    background-color: #f7f6d5;
+    height: auto;
+    border: 0.1px solid black;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding: rem;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: clamp(1rem, 0.648rem + 1.127vw, 2rem);
+
+}
+
+footer a:hover{
+    color: burlywood;
+}
+
+footer h3{
+    font-size: clamp(1rem, 0.296rem + 2.254vw, 3rem);
+    text-transform: capitalize;
+}
+
+.left-footer, .replication-links, .social-content{
+    flex: 1;
+}
+
+.left-footer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: clamp(1rem, 0.296rem + 2.254vw, 3rem);
+}
+
+.left-footer h5{
+    font-size: clamp(1.5rem, 1.359rem + 0.451vw, 1.9rem);
+    text-transform: uppercase;
+}
+
+
+.biglogo{
+    width: 80%;
+    aspect-ratio: 16/9;
+    background-image: url(../imgs/TENJU-removebg-preview.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.replication-links{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 3rem;
+    gap: clamp(1rem, 0.648rem + 1.127vw, 2rem);
+}
+
+.replication-links ul{
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+}
+
+
+
+.social-content h3,.replication-links h3{
+    font-size: clamp(2rem, 1.824rem + 0.563vw, 2.5rem);
+    text-transform: capitalize;
+}
+
+.replication-links ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: clamp(1.3rem, 1.194rem + 0.338vw, 1.6rem);
+    text-transform: uppercase;
+}
+
+.replication-links ul li a:hover{
+    color: burlywood;
+}
+
+.social-content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.social-content .fa-brands{
+    font-size: 3rem;
+    color: black;
+}
+
+.social-content .fa-brands:hover{
+    color: burlywood;
+}
+
+
+.social-logos{
+    display: flex;
+    flex-flow: row;
+    gap:2rem;
+}
+
+.contact-info{
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: clamp(1.2rem, 1.094rem + 0.338vw, 1.5rem);
+}
+
+
+.contact-info a{
+    color: black;
+    font-size: clamp(1.3rem, 1.194rem + 0.338vw, 1.6rem);
+    line-height: 1.5; 
+}
+
+
+.contact-info p{
+    font-size: clamp(1.3rem, 1.194rem + 0.338vw, 1.6rem);
+    color: black;
+}
+
+.copyright-resp{
+    display: none;
+}
+
+.center-footer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(1rem, 0.296rem + 2.254vw, 3rem);
+}
+
+
+.copyright{
+    font-size: clamp(1.3rem, 1.194rem + 0.338vw, 1.6rem);
+    color: black;
+}
+
+
+/*-----------------------------------MEDIA QUERIES-----------------------------------*/
+@media screen and (max-width: 1350px) {
+
+    .copyright{
+        display: none;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .menu-on ul{
+        display: none;
+    }
+
+    .nav-bar{
+        display: block;
+        width: 30px;
+        height: 30px;       
+
+        margin-left: auto;
+        position: relative;
+        cursor: pointer;
+    }
+    header .bookbutton{
+        display: none;
+    }
+
+    .nav-bar span{
+        position: absolute;
+        height: 3px;
+        width: 50%;
+        background-color: gray;
+        transition: .3s ease-out;
+        transform: rotate(0deg);
+    }
+
+    .nav-bar span:nth-child(even){
+        left: 50%;
+    }
+
+    .nav-bar span:nth-child(odd){
+        left: 0%;
+    }
+
+    .nav-bar span:nth-child(1), .nav-bar span:nth-child(2){
+        top: 0;
+    }
+
+    .nav-bar span:nth-child(3), .nav-bar span:nth-child(4){
+        top: 9px;
+    }
+
+    .nav-bar span:nth-child(5), .nav-bar span:nth-child(6){
+        top: 18px;
+    }
+
+    .nav-bar.open span:nth-child(3){
+        left: -50%;
+        opacity: 0;
+    }
+
+    .nav-bar.open span:nth-child(4){
+        left: 100%;
+        opacity: 0;
+    }
+
+    .nav-bar.open span:nth-child(1){
+        transform: rotate(45deg);
+        left: 5px;
+        top: 7px;
+    }
+
+    .nav-bar.open span:nth-child(2){
+        transform: rotate(-45deg);
+        left: calc(50% - 3px);
+        top: 7px;
+    }
+
+    .nav-bar.open span:nth-child(5){
+        transform: rotate(-45deg);
+        left: 5px;
+        top: 14px;
+    }
+
+    .nav-bar.open span:nth-child(6){
+        transform: rotate(45deg);
+        left: calc(50% - 3px);
+        top: 14px;
+    }
+
+    .menu-mobile{
+        display: block;
+        width: 100%;
+        height: 90vh;
+        background-color: rgb(0, 0, 0,  .8);
+        position: fixed;
+        left: 0;
+        top: 9.3rem;
+        position: absolute;
+        z-index: 1000;
+
+        animation: fade-in-mobile .3s ease-in;
+    }
+
+    @keyframes fade-in-mobile{
+        from{
+            opacity: 0;
+        }
+
+        to{
+            opacity: 1;
+            color: white;
+        }
+    }
+
+    .center-footer h3{
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .menu-mobile .menu-on-nav{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+
+    .menu-mobile .menu-on-nav li a{
+        color: white;
+        font-size: 2.5rem;
+        animation: none;
+    }
+
+}
+
+
+@media screen and (max-width: 960px) {
+
+    .center-footer h3{
+        text-align: center;
+    }
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+   footer{
+         flex-flow: column;
+         justify-content: stretch;
+         align-items: flex-start;
+         gap: 2rem;
+   }
+
+   .copyright{
+         display: none;
+   }
+
+   .replication-links{
+        width: 100%;
+        padding-left: 0;
+   }
+
+   .center-footer h3{
+        padding: 0!important;
+   }
+
+}
+
